@@ -1,0 +1,82 @@
+#order{
+    width: 100%;
+    padding: 200px 0;
+    background-image: url(/img/reservation-bg.jpg);
+    margin-bottom: 0 !important;
+}
+.orders__info{
+    color: #fff;
+}
+.orders__info--title{
+    color: #fff;
+}
+.orders{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+}
+.orders__title h6{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.orders input,.orders  select,.orders  textarea{
+    color: #2a2a2a;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    outline: none;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 15px;
+}
+.orders textarea{
+    height: 100px;
+    resize: none;
+    padding: 20px;
+}
+.form-row{
+    margin-bottom: -10px !important;
+}
+.orders__btn{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    border: 1px solid #fb5849;
+    font-size: 13px;
+    color: #fff;
+    background-color: #fb5849;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: bold;
+    border-radius: 5px;
+}
+#footer{
+   margin-top: 0 !important;
+}
+.orders__info textarea{
+    height: 76px !important;
+}
+.orders__info input,.orders__info  select,.orders__info  textarea{
+    color: #2a2a2a;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    outline: none;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 15px;
+}

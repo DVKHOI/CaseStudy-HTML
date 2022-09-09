@@ -12,83 +12,962 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="row header mt-3">
-        <div class="col-md-3 header__logo">
-          <img
-            class="header__logo-img d-flex justify-content-center"
-            src="img/logo.PNG"
-            alt=""
-          />
-          <p class="header__logo-title">LIBERTY</p>
-          <p class="header__logo-text">NFT Market</p>
-        </div>
-        <div class="col-md-9 header__menu d-flex justify-content-center">
-          <div class="header__menu-item">Home</div>
-          <div class="header__menu-item">Explore</div>
-          <div class="header__menu-item">Item details</div>
-          <div class="header__menu-item">Author</div>
-          <div
-            class="header__menu-item-btn mr-3 ml-4 d-flex align-items-center"
-          >
-            <button type="button" class="btn btn-outline-success">Login</button>
+    <div class="main">
+      <div class="header">
+        <header>
+          <nav>
+            <div class="menu-icon">
+              <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+              <a href="">
+                <img
+                  class="header__logo-img"
+                  src="img/klassy-logo.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chef">Chefs</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+                <li>
+                  <a href="login.html">Login</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <!-- Exit Header -->
+      <!-- slider -->
+
+      <div id="slider">
+        <div class="slider__left">
+          <h1 id="title" class="slider__left-title"></h1>
+          <div class="slider__left-default">
+            <p id="text" class="slider__left-text">THE BEST EXPERIENCE</p>
+            <button
+              onclick="location.href = 'reservation.html'"
+              class="slider__left-btn"
+            >
+              Make A Reservation
+            </button>
           </div>
-          <div class="header__menu-item-btn d-flex align-items-center">
-            <button type="button" class="btn btn-outline-primary">
-              Register
+        </div>
+        <div class="slider__right">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide-01.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-02.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide-03.jpg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-target="#carouselExampleControls"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-target="#carouselExampleControls"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="row nav ">
-        <div class="col-md-6 nav__left pl-5 " >
-          <p class="mt-5 nav__left-text">Liberty NFT Market</p>
-          <h1 class="nav__left-title">CREATE, SELL & COLLECT TOP NFT'S.</h1>
-          <p class="mt-3 mr-3 nav__left-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, vel magni provident, quis natus ex similique, molestiae sequi corrupti cupiditate reprehenderit excepturi rem adipisci optio odio! Dolorum error velit consequuntur. </p>
-          <button type="button" class="btn btn-outline-primary mr-2 mt-5 nav__left-btn">
-            Explore Top NTF's
-          </button>
-          <button type="button" class="btn btn-outline-primary mt-5  nav__left-btn">
-            Watch Your Video
-          </button>
-         
-        </div> 
-        <div class="col-md-6 nav__right" >
-          <img class="nav__right-img" src="img/Capture.PNG" alt="">
-        </div>
-      </div>
-      <div class="row main">
-        <div class="row main_section1 ">
-          <h2 class="col-md-12 mt-5 mb-5 main_section1-title ">Browse Through Our <span>Categories</span> Here</h2>
-          <div class="col-md-2 main_section1-item ">
-            <div class="main_section1-item_logo"></div>
-            <p class="main_section1-item_text" >Blockchain</p>
-          </div>
-          <div class="col-md-2 main_section1-item">
-            <div class="main_section1-item_logo"></div>
-            <p class="main_section1-item_text" >Blockchain</p>
-          </div>
-          <div class="col-md-2 main_section1-item">
-            <div class="main_section1-item_logo"></div>
-            <p class="main_section1-item_text" >Blockchain</p>
-          </div>
-          <div class="col-md-2 main_section1-item">
-            <div class="main_section1-item_logo"></div>
-            <p class="main_section1-item_text" >Blockchain</p>
-          </div>
-          <div class="col-md-2 main_section1-item">
-            <div class="main_section1-item_logo"></div>
-            <p class="main_section1-item_text" >Blockchain</p>
-          </div>
-          <div class="col-md-2 main_section1-item">
-            <div class="main_section1-item_logo"></div>
-            <p class="main_section1-item_text" >Blockchain</p>
+      <!-- Exit slider -->
+      <!-- About -->
+      <div id="about">
+        <div class="about__left">
+          <h6 class="about__left-title">ABOUT US</h6>
+          <h2 class="about__left-content">
+            We Leave A Delicious<br />
+            Memory For You
+          </h2>
+          <p class="about__left-text">
+            Klassy Cafe is one of the best
+            <a href="">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS
+            framework. You can download and feel free to use this website
+            template layout for your restaurant business. You are allowed to use
+            this template for commercial purposes.
+          </p>
+          <p class="about__left-text">
+            You are NOT allowed to redistribute the template ZIP file on any
+            template donwnload website. Please contact us for more information.
+          </p>
+
+          <div class="row about__left-img">
+            <img
+              class="col-md-4 about__left-img_item"
+              src="img/about-thumb-01.jpg"
+              alt=""
+            />
+            <img
+              class="col-md-4 about__left-img_item"
+              src="img/about-thumb-02.jpg"
+              alt=""
+            />
+            <img
+              class="col-md-4 about__left-img_item"
+              src="img/about-thumb-03.jpg"
+              alt=""
+            />
           </div>
         </div>
+        <div class="about__right">
+          <img class="about__right-img" src="img/about-video-bg.jpg" alt="" />
+          <a href=""><i class="fa-brands fa-youtube about__right-icon"></i></a>
+        </div>
       </div>
+      <!-- Exit About -->
+      <!-- Our Menu -->
+      <div class="container" id="menu">
+        <div class="row">
+          <div class="col-lg-12">
+            <h6 class="about__left-title">OUR MENU</h6>
+            <h2 class="about__left-content">
+              Our selection of cakes <br />
+              with quality taste
+            </h2>
+          </div>
+        </div>
+      </div>
+      <!-- Exit Our Menu -->
+      <!-- Menu -->
+      <section class="pt-5 pb-5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6 text-right">
+              <a
+                class="btn btn-outline-danger mb-3 mr-1"
+                href="#carouselExampleIndicators2"
+                role="button"
+                data-slide="prev"
+              >
+                <i class="fa fa-arrow-left"></i>
+              </a>
+              <a
+                class="btn btn-outline-danger mb-3"
+                href="#carouselExampleIndicators2"
+                role="button"
+                data-slide="next"
+              >
+                <i class="fa fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="col-12">
+              <div
+                id="carouselExampleIndicators2"
+                class="carousel slide"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$10</div>
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/Pound_layer_cake.jpg"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$8.5</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/lavacakenb_eegw.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$12</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/blackforestcakenb.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$5</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/German-chocolate-cake.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$2.8</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/Pound_layer_cake.jpg"
+                          />
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$8</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/lavacakenb_eegw.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$7.5</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/blackforestcakenb.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$12</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/German-chocolate-cake.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$16</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/Pound_layer_cake.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$6</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/Pound_layer_cake.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$3</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/Pound_layer_cake.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                        <div class="card">
+                          <div class="price">$4</div>
+
+                          <div class="order">
+                            <a href="reservation.html">
+                              <button
+                                type="button"
+                                class="btn btn-outline-danger"
+                                style="width: 150px; height: 50px"
+                              >
+                                Reservation
+                              </button>
+                            </a>
+                          </div>
+                          <img
+                            class="img-fluid card__img"
+                            alt="100%x280"
+                            src="img/Pound_layer_cake.jpg"
+                          />
+
+                          <div class="card-body">
+                            <h4 class="card-title f-weight">
+                              Special title treatment
+                            </h4>
+                            <p class="card-text">
+                              With supporting text below as a natural lead-in to
+                              additional content.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Exit Menu -->
+      <!-- Chefs -->
+      <div class="container" id="chef">
+        <div class="row mt-5">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4 text-center">
+            <div class="chef__heading">
+              <h6>OUR CHEFS</h6>
+              <h2>We offer the best ingredients for you</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="chef__info">
+              <div class="chef__info--img">
+                <div class="overlay"></div>
+                <ul class="overlay__icon">
+                  <li class="overlay__icon--item">
+                    <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="overlay__icon--item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="overlay__icon--item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+                <img src="img/chefs-02.jpg" alt="" />
+              </div>
+              <div class="chef__info--des">
+                <h4>David Martin</h4>
+                <span>Cookie Chef</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+            <div class="chef__info">
+              <div class="chef__info--img">
+                <div class="overlay"></div>
+                <ul class="overlay__icon">
+                  <li class="overlay__icon--item">
+                    <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="overlay__icon--item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="overlay__icon--item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+                <img src="img/chefs-03.jpg" alt="" />
+              </div>
+              <div class="chef__info--des">
+                <h4>RPeter Perkson</h4>
+                <span>Pancake Chef</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="chef__info">
+              <div class="chef__info--img">
+                <div class="overlay"></div>
+                <ul class="overlay__icon">
+                  <li class="overlay__icon--item">
+                    <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li class="overlay__icon--item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="overlay__icon--item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+                <img src="img/chefs-01.jpg" alt="" />
+              </div>
+              <div class="chef__info--des">
+                <h4>Randy Walker</h4>
+                <span>Pastry Chef</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Exit Chef -->
+      <!-- Contact Us -->
+      <div id="contact-us">
+        <div class="container">
+          <div class="row">
+            <!-- info -->
+            <div class="col-lg-6 align-seft-center">
+              <h6 class="contact__title">Contact Us</h6>
+              <h2 class="contact__content">
+                Here You Can Make A Reservation Or Just walkin to our cafe
+              </h2>
+              <p class="contact__des mb-5">
+                Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a
+                eleifend riqsie, namei sollicitudin urna diam, sed commodo purus
+                porta ut.
+              </p>
+              <div class="row">
+                <div class="col-lg-6 mb-5 col-md-12 text-center">
+                  <div class="contact__phone">
+                    <i class="fa-solid fa-phone contact__phone--icon"></i>
+                    <h4>Phone Numbers</h4>
+                    <span>
+                      <a href="">080-090-0990</a><br />
+                      <a href="">080-090-0880</a>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-5 col-md-12 text-center">
+                  <div class="contact__phone">
+                    <i class="fa-solid fa-envelope contact__phone--icon"></i>
+                    <h4>Emails</h4>
+                    <span>
+                      <a href="">hello@company.com</a><br />
+                      <a href="">info@company.com</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Exit Info -->
+            <!-- Feedback -->
+            <div class="col-lg-6 contact__feedback">
+              <form>
+                <div class="col-lg-12 text-center contact__feedback--title">
+                  <h6>FeedBack</h6>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Number Phone</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="inputEmail4"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inputPassword4"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="1234 Main St"
+                  />
+                </div>
+                <div class="form-row">
+                  <label for="inputAddress">Message</label>
+
+                  <div class="form-group col-lg-12">
+                    <textarea
+                      type="textarea"
+                      rows="3"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <button type="submit" class="btn mt-4 contact__feedback--btn">
+                  FeedBack
+                </button>
+              </form>
+            </div>
+            <!-- Exit Feedback -->
+          </div>
+        </div>
+      </div>
+      <!-- Exit Contact Us -->
+      <!-- Offers -->
+      <div class="container">
+        <div id="offers">
+          <div class="offer__title">
+            <h6>KLASSY WEEK</h6>
+            <h2>
+              This Week’s Special <br />
+              Meal Offers
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 offer__classify">
+              <ul class="offer__classify">
+                <li class="offer__classify--item">
+                  <img src="img/tab-icon-01.png" alt="" />
+                  Breakfast
+                </li>
+                <li class="offer__classify--item">
+                  <img src="img/tab-icon-02.png" alt="" />
+
+                  Bunch
+                </li>
+                <li class="offer__classify--item">
+                  <img src="img/tab-icon-03.png" alt="" />
+
+                  Dinner
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="offer__item">
+                  <img
+                    class="offer__item--img"
+                    src="img/tab-item-01.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="offer__item--title">Fresh Chicken Salad</h4>
+                    <p class="offer__item--des">
+                      Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                      elit, sed do.
+                    </p>
+                  </div>
+                  <div class="offer__price">
+                    <h6>$10</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="offer__item">
+                  <img
+                    class="offer__item--img"
+                    src="img/tab-item-02.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="offer__item--title">Orange Juice</h4>
+                    <p class="offer__item--des">
+                      Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                      elit, sed do.
+                    </p>
+                  </div>
+                  <div class="offer__price">
+                    <h6>$10</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="offer__item">
+                  <img
+                    class="offer__item--img"
+                    src="img/tab-item-03.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="offer__item--title">Fruit Salad</h4>
+                    <p class="offer__item--des">
+                      Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                      elit, sed do.
+                    </p>
+                  </div>
+                  <div class="offer__price">
+                    <h6>$10</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="offer__item">
+                  <img
+                    class="offer__item--img"
+                    src="img/tab-item-04.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="offer__item--title">Eggs Omelette</h4>
+                    <p class="offer__item--des">
+                      Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                      elit, sed do.
+                    </p>
+                  </div>
+                  <div class="offer__price">
+                    <h6>$10</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="offer__item">
+                  <img
+                    class="offer__item--img"
+                    src="img/tab-item-05.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="offer__item--title">Dollma Pire</h4>
+                    <p class="offer__item--des">
+                      Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                      elit, sed do.
+                    </p>
+                  </div>
+                  <div class="offer__price">
+                    <h6>$10</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="offer__item">
+                  <img
+                    class="offer__item--img"
+                    src="img/tab-item-06.png"
+                    alt=""
+                  />
+                  <div>
+                    <h4 class="offer__item--title">Omelette & Cheese</h4>
+                    <p class="offer__item--des">
+                      Lorem ipsum dolor sit amet, consectetur koit adipiscing
+                      elit, sed do.
+                    </p>
+                  </div>
+                  <div class="offer__price">
+                    <h6>$10</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Exit Offers -->
+      <!-- Footer -->
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-12 footer__icon d-flex justify-content-center"
+            >
+              <a href="">
+                <div class="footer__icon--item">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="footer__icon--item">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="footer__icon--item">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="footer__icon--item">
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </a>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 footer__logo d-flex justify-content-center"
+            >
+              <img src="img/white-logo.png" alt="" />
+            </div>
+            <div
+              class="col-lg-4 col-md-12 footer__design d-flex justify-content-center text-center"
+            >
+              <div class="">
+                © Copyright Klassy Cafe Co.<br />
+                Design: TemplateMo
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
 <script
@@ -101,3 +980,4 @@
   integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
   crossorigin="anonymous"
 ></script>
+<script src="js/main.js"></script>
